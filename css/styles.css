@@ -12,7 +12,7 @@ body{
 
 #bg-image img{
 	width: 100%;
-	opacity: 0.3;
+	opacity: 0.2;
 	position: fixed;
 	z-index: -1;
 }
@@ -61,4 +61,37 @@ nav{
 #social li a:hover{
 	color: #CD5C5C;
 }
+
+#logo-img{
+	width: 40px;
+	position: absolute;
+}
+#logo h1{
+	/*padding-top: 65px;*/
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+#logo {
+	text-align: center;
+	margin:0 auto;
+	width: 200px;
+	height: 100px;
+	/*border:3px solid #333;
+	background:red;*/
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	box-sizing: border-box;
+	/*padding-top: 15px;*/
+}
+#logo-box{
+	padding-top: 65px;
+}
+#logo span{
+	display: block;
+	font-size: 40px;
+}
+
 
