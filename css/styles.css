@@ -96,4 +96,14 @@ nav{
 	font-size: 40px;
 }
 
+#a{
+	position: relative;
+}
+#b{
+	position: absolute;
+	left: 145px;
+}
+#b img{
+	width: 90%;
+}
 
