@@ -43,8 +43,10 @@ nav li a:hover{
 nav{
 	position:fixed;
 	width: 100%;
-
 }
+/*nav:hover{
+	color: red;
+}*/
 
 #social{
 	width: 17%;
