@@ -106,7 +106,7 @@ nav ul:hover{
 	width:85%;
 	height:600px;
 	/*background-color: blue;*/
-	margin-top:15px;
+	margin-top:18px;
 	margin: 0 auto;
 }
 #image-box{
@@ -117,4 +117,34 @@ nav ul:hover{
 	font-weight:bold;
 }
 
-
+#left-box img{
+	width: 400px;
+}
+#right-box img{
+	width: 400px;
+}
+#left-box{
+	height: 300px;
+	background-color: red;
+	float: left;
+}
+#right-box{
+	height: 300px;
+	background-color: green;
+	float: right;
+}
+#left-box,#right-box{
+	width: 30%;
+}
+#middle-box{
+	height: 300px;
+	background-color:pink;
+	width:30%;
+	margin:0 auto;
+}
+section>div{
+	width: 80%;
+	height: 800px;
+	background-color: blue;
+	margin: 0 auto;
+}
