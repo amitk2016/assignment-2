@@ -43,10 +43,11 @@ nav li a:hover{
 nav{
 	position:fixed;
 	width: 100%;
+	z-index:5;
 }
-/*nav:hover{
-	color: red;
-}*/
+nav ul:hover{
+	background-color:#222;
+}
 
 #social{
 	width: 17%;
@@ -94,6 +95,26 @@ nav{
 #logo span{
 	display: block;
 	font-size: 40px;
+}
+
+#main-image img{
+	display: block;
+	max-width: 100%;
+	
+}
+#main-image{
+	width:85%;
+	height:600px;
+	/*background-color: blue;*/
+	margin-top:15px;
+	margin: 0 auto;
+}
+#image-box{
+	height: 700px;
+	/*background-color: red;*/
+}
+#main-image p{
+	font-weight:bold;
 }
 
 
