@@ -115,6 +115,13 @@ nav ul:hover{
 #main-image p{
 	font-weight:bold;
 }
+#book-now{
+	padding: 8px 20px;
+	background-color: red;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
 
 #left-box img{
 	width: 400px;
@@ -155,6 +162,6 @@ section>div{
 }
 .images{
 	text-decoration: none;
-	color:red;
+	color:brown;
 }
 
