@@ -6,7 +6,7 @@
 body{
 	margin:0; 
 	font-family: 'Vollkorn', serif;
-	height: 3000px;
+/*	height: 2000px;*/
 }
 
 #bg-image img{
@@ -14,6 +14,9 @@ body{
 	opacity: 0.2;
 	position: fixed;
 	z-index: -1;
+	/*bottom: 0;
+	top: 0;*/
+	height: 100%;
 }
 
 nav ul{
@@ -107,14 +110,16 @@ nav ul:hover{
 	/*background-color: blue;*/
 	margin-top:18px;
 	margin: 0 auto;
+	position: relative;
 }
 #image-box{
 	/*background-color: red;*/
-	position: relative;
+	
 
 }
 #main-image p{
 	font-weight:bold;
+
 	}
 
 #book-now{
@@ -125,8 +130,8 @@ nav ul:hover{
 	padding:7px 12px;
 	background-color:#FF0000;
 	position: absolute;
-	right:200px;
-	top:400px;
+	right: 70px;
+	bottom: 200px;
 }
 
 #left-box img{
@@ -162,7 +167,7 @@ nav ul:hover{
 }
 section>div{
 	width: 85%;
-	height: 800px;
+	height: 600px;
 	/*background-color: blue;*/
 	margin:0 auto;
 }
@@ -171,3 +176,33 @@ section>div{
 	color:red;
 }
 
+#video video{
+	display: block;
+	margin:0 auto;
+}
+#video-box{
+	
+}
+#video{
+	width: 85%;
+}
+
+footer{
+	height: 300px;
+	background-color: #62bcfa;
+}
+#footer-nav a{
+	text-decoration: none;
+	color:#000;
+}
+#footer-nav li{
+	display: inline-block;
+	margin-right: 25px;
+}
+#search-box{
+	margin: 50px 100px;
+
+}
+#search{
+	width:200px;
+}
